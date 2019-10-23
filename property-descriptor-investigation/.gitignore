@@ -1,0 +1,28 @@
+secrets
+# IDEs and editors
+/.idea
+.project
+.classpath
+.history
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
+
+# Ignore images data files
+Thumbs.db
+
+# custom folder
+TestSamApp
+
+.aws
+
+node_modules
