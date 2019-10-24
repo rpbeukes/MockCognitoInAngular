@@ -1,7 +1,7 @@
 const cognito = require('amazon-cognito-identity-js');
 
 describe('Investigaste Object.defineProperty of Cognito.AuthenticationDetails', () => {
-  it('It should throw "TypeError: Cannot redefine property: AuthenticationDetails" because Object.getOwnPropertyDescriptor return configurable: false', () => {
+  it('It should throw "TypeError: Cannot redefine property: AuthenticationDetails" because Object.getOwnPropertyDescriptor returns configurable: false', () => {
     
     console.log('Object.getOwnPropertyDescriptor(cognito, "AuthenticationDetails"): ');
     console.log(Object.getOwnPropertyDescriptor(cognito, 'AuthenticationDetails'));
